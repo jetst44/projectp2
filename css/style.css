@@ -5,7 +5,7 @@
 
 }
 
-p,h2,h3,h4,h5,h6{
+p,h2,h3,h4,h5,h6,label{
     color: rgba(255, 255, 255, 1);
 }
 
@@ -15,10 +15,14 @@ p,h2,h3,h4,h5,h6{
 }
 
 h4{
-	font-size: 18px;
+	font-size: 17px;
 }
 
 h5{
+	font-size: 18px;
+}
+
+label{
 	font-size: 18px;
 }
 
@@ -28,9 +32,9 @@ body {
 	margin: 0;
 }
 
-.P1
+.p1
 {
-	float:right;
+	float:center;
 	
 }
 #btn {
@@ -343,6 +347,23 @@ body {
 	margin: 0 auto;
 }
 
+
+.p1:hover {
+	border: 0px solid;
+	border-bottom-width:thin;
+	float:center;
+	width: 270px;
+	display: inline-block;
+	vertical-align:top;
+	padding: 20px;
+    padding-top: 0px;
+	text-align:center;
+	margin: 10px;
+    border-radius: 10px;
+	height:270px;
+	background-color: rgba(80,97,69,1);
+}
+
 .p2 {
 	border: 0px solid;
 	border-bottom-width:thin;
@@ -359,6 +380,24 @@ body {
     margin-left: 30px;
 	height:150px;
 	background-color: rgba(80,97,69,.75);
+}
+
+.p2:hover {
+	border: 0px solid;
+	border-bottom-width:thin;
+	float:left;
+	width: 550px;
+	display: inline-block;
+	vertical-align:top;
+	padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+	text-align:justify;
+    border-radius: 10px;
+	margin: 10px;
+    margin-left: 30px;
+	height:150px;
+	background-color: rgba(80,97,69,1);
 }
 
 .p3 {
